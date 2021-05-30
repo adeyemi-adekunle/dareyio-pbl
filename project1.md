@@ -53,7 +53,7 @@ Note: Keep in mind if I enter 2 for the strongest level, I  will receive errors 
  ![test mysql](https://user-images.githubusercontent.com/19293380/120111455-f1f4a100-c169-11eb-85a8-9aa804a4ddfd.jpg)
 ##### This will connect to the MySQL server as the administrative database user root, which is inferred    by the use of sudo when running this command
 ##### To exit the MySQL console, type:
- 
+    $ exit
 
     
     
