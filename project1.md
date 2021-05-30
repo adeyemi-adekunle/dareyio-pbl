@@ -53,7 +53,31 @@ Note: Keep in mind if I enter 2 for the strongest level, I  will receive errors 
  ![test mysql](https://user-images.githubusercontent.com/19293380/120111455-f1f4a100-c169-11eb-85a8-9aa804a4ddfd.jpg)
 ##### This will connect to the MySQL server as the administrative database user root, which is inferred    by the use of sudo when running this command
 ##### To exit the MySQL console, type:
-    $ exit
+    $ exit 
+![The rest yes selected](https://user-images.githubusercontent.com/19293380/120119296-d3ed6780-c18e-11eb-90a7-d63f6096cc07.jpg)
+#### Step 3 Installing PHP 
+##### In addition to the php package, i need php-mysql, a PHP module that allows PHP to communicate with MySQL-based databases. I also need libapache2-mod-php to enable Apache to handle PHP files
+##### 1) In Order to instal the 3 package at once the below command will be run
+
+     $ sudo apt install php libapache2-mod-php php-mysql 
+![Installing php package 3](https://user-images.githubusercontent.com/19293380/120119547-31ce7f00-c190-11eb-97c8-2144f633bcab.jpg)
+##### 2) Once the installation is finished, I need to run the following command to confirm the PHP version:
+     $ php -v
+![php version](https://user-images.githubusercontent.com/19293380/120119733-4d865500-c191-11eb-868e-19552f0d7dd3.jpg)
+#### Step 4 Creating a Virtual Host for your Website using Apache
+##### Virtual host allows me to havemultiple websites located on a single machine and users of the websites will not even notice it. In this project, I am setting up a domain called projectlamp
+
+
+
+
+
+
+
+
+
+
+
+
 
     
     
