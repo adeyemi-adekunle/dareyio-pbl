@@ -1,4 +1,4 @@
-## WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS
+##  MY WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS
 ### Step 1 Installing Apache Web Server 
 #### 1) Install apache using Ubuntu's package manage "apt"
 ##### update a list of packages in package manager by run command below: 
